@@ -31,6 +31,7 @@ client.on('messageCreate', async (message) => {
     } catch (error) {
       console.error('Error al obtener el chiste:', error);
       message.reply('Lo siento, no pude conseguir un chiste en este momento.');
+      
     }
   }
 });
